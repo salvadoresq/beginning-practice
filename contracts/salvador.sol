@@ -4,7 +4,7 @@ pragma solidity ^0.8.9;
 
 contract conditions {
     uint public num;
-
+uint public age;
     function set(uint _num) public {
         num = _num;
     }
